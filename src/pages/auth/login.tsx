@@ -62,7 +62,7 @@ export default function LoginPage({
     });
   };
 
-  const metaTitle = `${t('metaTitle')} • Homarr`;
+  const metaTitle = `${t('metaTitle')} • Opexpert`;
 
   return (
     <>
@@ -85,7 +85,7 @@ export default function LoginPage({
               })}
               align="center"
             >
-              Homarr
+              {/* Homarr */}
             </Text>
           </Stack>
           {isDemo && (

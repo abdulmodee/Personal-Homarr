@@ -31,7 +31,7 @@ export default function OnboardPage({
   return (
     <>
       <Head>
-        <title>Onboard • Homarr</title>
+        <title>Onboard • Opexpert</title>
       </Head>
 
       <FloatingBackground />

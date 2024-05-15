@@ -159,7 +159,7 @@ export default function CustomizationPage({
 
   const metaTitle = `${t('metaTitle', {
     name: firstUpperCase(query.slug),
-  })} • Homarr`;
+  })} • Opexpert`;
 
   if (isError || error) {
     return {

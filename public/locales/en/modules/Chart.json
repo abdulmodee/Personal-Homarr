@@ -1,0 +1,35 @@
+{
+    "descriptor": {
+        "name":"Chart",
+        "description": "Displays a Chart with data acquired for provided API URL.",
+        "settings": {
+            "title": "Settings for Chart Widget",
+            "chartTitle": {
+                "label":"Chart Title"
+            },
+            "apiUrl": {
+                "label":"API URL"
+            },
+            "jsonParams": {
+                "label":"JSON Parameters (appended to API)"
+            },
+            "xAxisKey": {
+                "label":"X Axis Key"
+            },
+            "yAxisKey": {
+                "label":"Y Axis Key"
+            },
+            "chartColor": {
+                "label":"Chart Color"
+            },
+            "chartType": {
+                "label":"Chart Type",
+                "data":{
+                    "Bar Chart": "Bar Chart",
+                    "Pie Chart": "Pie Chart",
+                    "Line Chart": "Line Chart"
+                  }
+            }
+        }
+    }
+}

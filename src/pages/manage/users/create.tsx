@@ -43,7 +43,7 @@ const CreateNewUserPage = () => {
     validate: i18nZodResolver(createAccountSchema),
   });
 
-  const metaTitle = `${t('metaTitle')} • Homarr`;
+  const metaTitle = `${t('metaTitle')} • Opexpert`;
   return (
     <ManageLayout>
       <Head>

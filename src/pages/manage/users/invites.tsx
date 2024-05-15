@@ -40,7 +40,7 @@ const ManageUserInvitesPage = () => {
     setActivePage((prev) => prev - 1);
   };
 
-  const metaTitle = `${t('metaTitle')} • Homarr`;
+  const metaTitle = `${t('metaTitle')} • Opexpert`;
   return (
     <ManageLayout>
       <Head>

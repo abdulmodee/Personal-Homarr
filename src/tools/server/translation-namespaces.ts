@@ -9,6 +9,7 @@ export const boardNamespaces = [
   'settings/common',
   'modules/common',
   'modules/date',
+  'modules/Chart',
   'modules/calendar',
   'modules/dlspeed',
   'modules/usenet',
@@ -43,7 +44,7 @@ export const manageNamespaces = [
   'manage/users',
   'manage/users/invites',
   'manage/users/create',
-  'manage/users/edit'
+  'manage/users/edit',
 ];
 export const loginNamespaces = ['authentication/login'];
 

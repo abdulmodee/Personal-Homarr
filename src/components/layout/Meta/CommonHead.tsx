@@ -13,7 +13,7 @@ export const CommonHead = () => {
 
       {/* configure apple splash screen & touch icon */}
       <link rel="apple-touch-icon" href="/imgs/favicon/favicon.svg" />
-      <meta name="apple-mobile-web-app-title" content="Homarr" />
+      <meta name="apple-mobile-web-app-title" content="Opexpert" />
 
       <meta name="apple-mobile-web-app-capable" content="yes" />
 

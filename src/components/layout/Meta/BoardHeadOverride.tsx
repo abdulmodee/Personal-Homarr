@@ -9,7 +9,7 @@ export const BoardHeadOverride = () => {
   if (!config || !name) return null;
 
   const { metaTitle, faviconUrl } = config.settings.customization;
-  const fallbackTitle = `${firstUpperCase(name)} Board • Homarr`;
+  const fallbackTitle = `${firstUpperCase(name)} Board • Opexpert`;
   const title = metaTitle && metaTitle.length > 0 ? metaTitle : fallbackTitle;
 
   return (

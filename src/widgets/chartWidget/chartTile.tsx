@@ -151,9 +151,6 @@ function ChartTile({ widget }: ChartTileProps) {
 
   return (
     <>
-      <Text size={width < 200 ? 'sm' : 'lg'} className={cx(classes.title, 'dashboard-tile-title')}>
-        {widget.properties.chartTitle}
-      </Text>
       <ResponsiveContainer width="100%" height="100%">
         {widget.properties.chartType === 'Line Chart'
           ? renderLineChart()

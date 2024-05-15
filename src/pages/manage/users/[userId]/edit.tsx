@@ -25,7 +25,7 @@ const EditPage = () => {
 
   const metaTitle = `${t('metaTitle', {
     username: data?.name,
-  })} • Homarr`;
+  })} • Opexpert`;
 
   return (
     <ManageLayout>

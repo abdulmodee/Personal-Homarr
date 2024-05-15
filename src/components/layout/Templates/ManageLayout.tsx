@@ -258,7 +258,7 @@ export const ManageLayout = ({ children }: ManageLayoutProps) => {
               <Flex gap="md" align="center" columnGap={5}>
                 <Image src="/imgs/logo/logo.svg" width={20} height={20} alt="" />
                 <Text fw="bold" size={15}>
-                  Homarr
+                  
                 </Text>
                 {packageVersion && (
                   <Text color="dimmed" size={13}>

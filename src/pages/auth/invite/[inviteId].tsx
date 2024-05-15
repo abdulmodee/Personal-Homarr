@@ -101,7 +101,7 @@ export default function AuthInvitePage() {
     );
   };
 
-  const metaTitle = `${t('metaTitle')} • Homarr`;
+  const metaTitle = `${t('metaTitle')} • Opexpert`;
 
   return (
     <>

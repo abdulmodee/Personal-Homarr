@@ -202,7 +202,7 @@ export const Page = ({ contributors }: { contributors: Contributors[] }) => {
   return (
     <ManageLayout>
       <Head>
-        <title>About • Homarr</title>
+        <title>About • Opexpert</title>
       </Head>
       <Stack>
         <Text>

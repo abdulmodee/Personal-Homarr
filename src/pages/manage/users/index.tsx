@@ -80,7 +80,7 @@ const ManageUsersPage = () => {
 
   const { t } = useTranslation(['manage/users', 'common']);
 
-  const metaTitle = `${t('metaTitle')} • Homarr`;
+  const metaTitle = `${t('metaTitle')} • Opexpert`;
 
   return (
     <ManageLayout>

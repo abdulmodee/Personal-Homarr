@@ -58,7 +58,7 @@ export const getStaticFallbackConfig = (name: string): ConfigType => ({
         disablePingPulse: false,
         replacePingDotsWithIcons: false,
       },
-      pageTitle: 'Homarr ⭐️',
+      pageTitle: '',
       logoImageUrl: '/imgs/logo/logo.png',
       faviconUrl: '/imgs/favicon/favicon-squared.png',
       backgroundImageUrl: '',

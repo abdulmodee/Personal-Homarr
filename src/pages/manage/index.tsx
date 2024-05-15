@@ -31,7 +31,7 @@ const ManagementPage = () => {
   const largerThanMd = useScreenLargerThan('md');
   const { data: sessionData } = useSession();
 
-  const metaTitle = `${t('metaTitle')} • Homarr`;
+  const metaTitle = `${t('metaTitle')} • Opexpert`;
   return (
     <ManageLayout>
       <Head>

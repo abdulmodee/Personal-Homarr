@@ -2,7 +2,7 @@ FROM node:20.2.0-slim
 WORKDIR /app
 
 # Define node.js environment variables
-ARG PORT=7575
+ARG PORT=3000
 
 ENV NEXT_TELEMETRY_DISABLED 1
 ENV NODE_ENV production
@@ -53,8 +53,8 @@ EXPOSE $PORT
 ENV PORT=${PORT}
 
 ENV DATABASE_URL "file:/data/db.sqlite"
-ENV NEXTAUTH_URL "http://localhost:7575"
-ENV PORT 7575
+ENV NEXTAUTH_URL "http://localhost:3000"
+ENV PORT 3000
 ENV NEXTAUTH_SECRET NOT_IN_USE_BECAUSE_JWTS_ARE_UNUSED
 
 HEALTHCHECK --interval=10s --timeout=5s --start-period=5s --retries=3 \

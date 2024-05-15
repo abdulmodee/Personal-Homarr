@@ -12,7 +12,7 @@ export const PageMetadataCustomization = () => {
         <TextInput
           label={t('pageTitle.label')}
           description={t('pageTitle.description')}
-          placeholder="homarr"
+          placeholder=""
           {...form.getInputProps('pageMetadata.pageTitle')}
         />
       </Grid.Col>
@@ -20,7 +20,7 @@ export const PageMetadataCustomization = () => {
         <TextInput
           label={t('metaTitle.label')}
           description={t('metaTitle.description')}
-          placeholder="homarr - the best dashboard"
+          placeholder=""
           {...form.getInputProps('pageMetadata.metaTitle')}
         />
       </Grid.Col>

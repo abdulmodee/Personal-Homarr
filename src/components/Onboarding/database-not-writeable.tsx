@@ -11,16 +11,16 @@ export const DatabaseNotWriteable = ({
   return (
     <>
       <Head>
-        <title>Onboard - Error • Homarr</title>
+        <title>Onboard - Error • Opexpert</title>
       </Head>
 
       <Center h="100%">
         <Stack align="center" p="lg">
           <Title order={1} weight={800} size="3rem" opacity={0.8}>
-            Critical error while starting Homarr
+            Critical error while starting Opexpert
           </Title>
           <Text size="lg" mb={40}>
-            We detected that Homarr is unable to write to the database. Please troubleshoot using
+            We detected that Opexpert is unable to write to the database. Please troubleshoot using
             the following steps:
           </Text>
           <List>

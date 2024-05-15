@@ -59,7 +59,7 @@ export default function BoardsPage({
 
   const { t } = useTranslation('manage/boards');
 
-  const metaTitle = `${t('metaTitle')} • Homarr`;
+  const metaTitle = `${t('metaTitle')} • Opexpert`;
 
   return (
     <ManageLayout>
